@@ -9,7 +9,7 @@ from cachetools import TTLCache, cachedmethod
 
 class OpenFigiClient:
 
-    BASE_URL = 'https://api.openfigi.com/v2'# {{{
+    BASE_URL = 'https://api.openfigi.com/v1'# {{{
     MAPPING_URL = BASE_URL + '/mapping'
     SEARCH_URL = BASE_URL + '/search'
     FILTER_URL = BASE_URL + '/filter'
